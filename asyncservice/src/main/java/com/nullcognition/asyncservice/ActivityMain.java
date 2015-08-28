@@ -37,7 +37,8 @@ public class ActivityMain extends Activity{
 
 		AsyncService.inject(this);
 
-		handler.postDelayed(new Runnable(){
+		handler.postDelayed(new Runnable(){ // this runnable is still a memory leak, even though the
+			// handler is not
 			@Override public void run(){
 				demoService.getInt();
 
