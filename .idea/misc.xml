@@ -34,12 +34,6 @@
       </value>
     </option>
   </component>
-  <component name="PegdownDocletIdea.ProjectConfiguration">
-    <option name="enabled" value="false" />
-    <option name="renderingOptions">
-      <RenderingOptions />
-    </option>
-  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>

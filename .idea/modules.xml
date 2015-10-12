@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/android-multithreading.iml" filepath="$PROJECT_DIR$/android-multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asyncservice/asyncservice.iml" filepath="$PROJECT_DIR$/asyncservice/asyncservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lightweight-stream-api/lightweight-stream-api.iml" filepath="$PROJECT_DIR$/lightweight-stream-api/lightweight-stream-api.iml" />
     </modules>
   </component>
 </project>

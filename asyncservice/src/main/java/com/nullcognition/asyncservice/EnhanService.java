@@ -10,6 +10,8 @@ import java.util.List;
 
 public abstract class EnhanService implements EnhancedService{
 
+	EnhanService(){}
+
 	@Override public void send(final Object message){
 	}
 
@@ -39,6 +41,4 @@ public abstract class EnhanService implements EnhancedService{
 }
 
 
-class UserNotFound{
 
-}

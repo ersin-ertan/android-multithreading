@@ -1,1 +1,1 @@
-include ':app', ':asyncservice'
+include ':app', ':asyncservice', ':lightweight-stream-api'

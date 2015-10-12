@@ -17,6 +17,8 @@ public class EService extends EnhanService{
 
 	public static final String KEY = "cachable:{group}";
 
+	public EService(){super();}
+
 	@Null(UserNotFound.class) String getUser(String username){
 		String user = null; // ...
 //		if (user == null) send(new UserNotFound(username));

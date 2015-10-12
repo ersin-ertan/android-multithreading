@@ -4,7 +4,7 @@ package com.nullcognition.asyncservice;
 
 public class StringGenerator{
 
-	StringGenerator(){}
+	public StringGenerator(){}
 
 	int i = 1;
 	int modifier = 2;
