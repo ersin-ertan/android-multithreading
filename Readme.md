@@ -16,3 +16,6 @@
 
 - [JoanZapata](https://github.com/JoanZapata)
     - [Android-AsyncService](https://github.com/JoanZapata/android-asyncservice) evaluating
+
+- [aNNiMON](https://github.com/aNNiMON)
+    - [Lightweight Stream Api](https://github.com/aNNiMON/Lightweight-Stream-API)
