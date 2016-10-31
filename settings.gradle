@@ -1,1 +1,1 @@
-include ':app', ':asyncservice', ':lightweight-stream-api', ':androidpriorityjobqueue'
+include ':app', ':asyncservice', ':lightweight-stream-api', ':androidpriorityjobqueue', ':rxjava2'
