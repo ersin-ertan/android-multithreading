@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
     //Changes.observableObject();
     //MaybeClass.maybe();
     //GroupObserv.groupedObserv();
-    Functionss.f("e");
+    //Functionss.f("e");
 
+    Practice01.group();
   }
 }

@@ -14,7 +14,7 @@ import java.util.List;
 
 public class GroupObserv {
 
-  static List<Integer> ints = new ArrayList<>(100);
+  public static List<Integer> ints = new ArrayList<>(100);
 
   static {
     for (int i = 0; i < 100; i++) {
