@@ -26,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
     //GroupObserv.groupedObserv();
     //Functionss.f("e");
 
-    Practice01.group();
+    //Practice01.group();
+    //Practice01.may();
+    //ObservableFlowable.backpressure();
+    //ObservableFlowable.bp1();
+    //ObservableFlowable.bp2();
+    //ObservableFlowable.bp3();
+
+
+
+
   }
 }

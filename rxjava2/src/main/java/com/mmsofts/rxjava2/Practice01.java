@@ -1,15 +1,19 @@
 package com.mmsofts.rxjava2;
 
 import io.reactivex.Flowable;
+import io.reactivex.Maybe;
+import io.reactivex.MaybeObserver;
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 import io.reactivex.observables.GroupedObservable;
 import io.reactivex.schedulers.Schedulers;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Callable;
 import org.reactivestreams.Subscription;
 
 /**
@@ -184,6 +188,38 @@ public class Practice01 {
   private static char evenOdder(int integer) {
     return integer % 2 == 0 ? 'e' : 'o'; // instead of having this logic in the groupBy method it is
     // extracted, and a method reference is used instead
+  }
+
+  public static void may() {
+    Maybe.fromRunnable(() -> {
+      // do computation
+    }).subscribe(o -> {
+      // onSuccess
+    }, throwable -> {
+      //on error
+    }, () -> {
+      // new Action on complete
+    });
+
+    Maybe.fromCallable(new Callable<Integer>() {
+      @Override public Integer call() throws Exception {
+        return 3;
+      }
+    }).subscribe(new MaybeObserver<Integer>() {
+      @Override public void onSubscribe(Disposable d) {
+        System.out.println(d.toString());
+      }
+
+      @Override public void onSuccess(Integer value) {
+        System.out.println(value);
+      }
+
+      @Override public void onError(Throwable e) {
+      }
+
+      @Override public void onComplete() {
+      }
+    });
   }
 
   enum NULL {OBJECT;}
