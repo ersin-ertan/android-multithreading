@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asyncservice/asyncservice.iml" filepath="$PROJECT_DIR$/asyncservice/asyncservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/lightweight-stream-api/lightweight-stream-api.iml" filepath="$PROJECT_DIR$/lightweight-stream-api/lightweight-stream-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxgroups/rxgroups.iml" filepath="$PROJECT_DIR$/rxgroups/rxgroups.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava2/rxjava2.iml" filepath="$PROJECT_DIR$/rxjava2/rxjava2.iml" />
     </modules>
   </component>

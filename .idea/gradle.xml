@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/asyncservice" />
             <option value="$PROJECT_DIR$/lightweight-stream-api" />
+            <option value="$PROJECT_DIR$/rxgroups" />
             <option value="$PROJECT_DIR$/rxjava2" />
           </set>
         </option>
